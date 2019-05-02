@@ -1,5 +1,5 @@
-const SERVICE_UUID = ''
-const CHARACTERISTIC_UUID = ''
+const SERVICE_UUID = process.env.SERVICE_UUID
+const CHARACTERISTIC_UUID = process.env.CHARACTERISTIC_UUID
 
 const btn = document.getElementById('btn')
 const text = document.getElementById('text')
