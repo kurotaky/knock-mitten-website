@@ -1,6 +1,7 @@
 baseURL = "https://knockmitten.netlify.com/"
 languageCode = "ja"
 title = "knock mitten"
+theme="hallo"
 [Author]
     name = "Yuta Kurotaki"
 [params]
