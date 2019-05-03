@@ -3,25 +3,41 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>knockmitten!</title>
+    <title>knock mitten!</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="app.js" defer></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script defer src="app.js"></script>
   </head>
   <body>
     <section class="section">
       <div class="container">
         <h1 class="title">
-          knock mitten
+          knock mitten🥊
         </h1>
         <p class="subtitle">
           Interactive boxing mitten
         </p>
-        <div class="is-size-3">Pulse:</div>
-        <div id="text" class="is-size-1 has-text-centered"></div>
-        <div class="is-size-3">Count:</div>
-        <div id="counter" class="is-size-1 has-text-centered"></div>
+        <nav class="level">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Pulse</p>
+              <p id="text" class="title">0</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Count</p>
+              <p id="counter" class="title">0</p>
+            </div>
+          </div>
+        </nav>
         <button id="btn" class="button is-primary">Connect</button>
+        <div class="columns is-mobile is-centered">
+          <div class="column is-half">
+            <div id="sketch-holder"></div>
+          </div>
+        </div>
       </div>
     </section>
   </body>
