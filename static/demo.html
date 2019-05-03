@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>knockmitten!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="app.js" defer></script>
   </head>
   <body>
-    Pulse: <div id="text"></div>
-    Count: <div id="counter"></div>
-    <button id="btn">Connect</button>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          knock mitten
+        </h1>
+        <p class="subtitle">
+          Interactive boxing mitten
+        </p>
+        <div class="is-size-3">Pulse:</div>
+        <div id="text" class="is-size-1 has-text-centered"></div>
+        <div class="is-size-3">Count:</div>
+        <div id="counter" class="is-size-1 has-text-centered"></div>
+        <button id="btn" class="button is-primary">Connect</button>
+      </div>
+    </section>
   </body>
 </html>
